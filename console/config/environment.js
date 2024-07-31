@@ -2,6 +2,7 @@
 const toBoolean = require('./utils/to-boolean');
 const getenv = require('./utils/getenv');
 const fixApiHost = require('./utils/fix-api-host');
+const asArray = require('./utils/as-array');
 const { version } = require('../package');
 
 module.exports = function (environment) {
@@ -20,7 +21,7 @@ module.exports = function (environment) {
         },
 
         APP: {
-            showExtensionsLink: toBoolean(getenv('SHOW_EXTENSIONS_LINK', true)),
+            extensions: asArray(getenv('EXTENSIONS')),
         },
 
         API: {
@@ -29,8 +30,8 @@ module.exports = function (environment) {
         },
 
         osrm: {
-            host: getenv('OSRM_HOST', 'https://bundle.routing.fleetbase.io'),
-            servers: getenv('OSRM_SERVERS', '').split(',').filter(Boolean),
+            host: getenv('OSRM_HOST', 'https://router.project-osrm.org'),
+            servers: {},
         },
 
         socket: {
