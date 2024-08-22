@@ -48,3 +48,11 @@ body[data-theme='dark'] .two-fa-enforcement-alert button#two-fa-setup-button.btn
 body.console-admin-organizations-index-index .next-table-wrapper > table {
     table-layout: auto;
 }
+
+div.next-user-button div.next-dd-menu > div.next-dd-menu-seperator ~ div.px-1:has(> a.next-dd-item) {
+    display: none;
+}
+
+div.next-user-button div.next-dd-menu > div.next-dd-menu-seperator ~ .next-dd-menu-seperator ~ div.px-1:has(> a.next-dd-item) {
+    display: block;
+}
