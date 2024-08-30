@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba3655549805a502b10cf271a6bdb6be",
+    "content-hash": "93a111c6bf85dd4ef4991648be1888a5",
     "packages": [
         {
             "name": "aloha/twilio",
@@ -2359,6 +2359,104 @@
                 "source": "https://github.com/firebase/php-jwt/tree/v6.10.1"
             },
             "time": "2024-05-18T18:05:11+00:00"
+        },
+        {
+            "name": "fleetbase/billing-api",
+            "version": "0.1.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://s3.ap-southeast-1.amazonaws.com/fleetbase-registry-production/flb/%40fleetbase/billing-engine/billing-engine-0.1.1.tgz?AWSAccessKeyId=ASIA26E6KG6WIQN7BOYC&Expires=1724990274&Signature=jCIY740osyhj4L85V1nQBl0UXxg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEDwaDmFwLXNvdXRoZWFzdC0xIkYwRAIgHVdZvZ%2FUBZloO%2BKqx8CTRXblzEqjMVgCsNd1rDm134sCIBIp6Jb%2BW99kI%2BhtJugMssEJd%2FIiiJNC92GZEdZCYrfAKpYECFUQABoMNzUxOTUxMjk2NDI4IgzvYmTJ%2FiMyiQZ0DWEq8wMzJ97GGeuKlopT6us6P7ceouEy9Ax9yvpBo4vpEuHfJPenpEmNaVjbitB7vNiKz9XZXlKnoZ0THWH44Ia0QlAJa5q%2BedhE%2FCm41OHMI7P8InJS9I6B0aETSsSLKMtyNg9kMgqlMsKdZm7VmQLrgmtlt5vO62QoVr4msWeGVBd%2BWLKAaJX%2BjsXtPA7%2Fy1XHIbXlKajIPUHCVUUTrygSlDGATTX8vYx6dp%2FaU3v3RF3beftPO4%2FpV5%2FK2pra%2BWoWap%2Fm8QeThJ7vkFz85gPUx2Vi%2FYbLq4P9zvVJ3hoFfNpbJUI4t38hyLGWP9c1Qhqg3TnASIRnlle9tamQ3iZGRjjFNtUMNeq8mFfuVpojFvq7lwBntu2xJ%2Bpeg2jfAtPSwi%2BIJGGDbtI1G%2F04IoaUBZQ%2Ftgigkb4qv8EDJQjcw723%2Ba7o%2BcH90sDgs%2BUdoqLZaTc0WYQ5kOw1rJEkoHUj5JQV0tzyQIh612o%2F0q10ifgyk2rnGS9Q9SB7zeImsUeRY3ttWqCsclRAaAiOaQZzePne1RnwMtTBJo0wB9w1jri1gdBSj0mlJaIruM28%2BCYhVpW3dScpcT8x2HNsQdjLZ5pTzqBQxODIxB9Z0cEB6zHmSaq0aeriZjwKqDtV9NE5MMk%2Fx8MGxjXcUGD4%2FZv3dNcyXwI3MPeDxbYGOqcBrSVtTe3oVAKWO9rC5k4STFlxTr6z7OTDF8dkdeYZwlfNoNozyqFxQik0PFvn3wH8Wb5HXIVceiFHgE%2BQMqFrF%2FyDIu4JpN3m9nj1bKm0OAkdPROuGJPkZCtdvvgD%2Bfs4nmSFzS3FXzNbpS4C4zTJ63FO3Jb%2FTa6rysom2Mp%2BBSCuX1LzOseUQwdHI8i27hNaP7BYmCo4RYin06aprY34GJ0RuPeI6zM%3D"
+            },
+            "require": {
+                "fleetbase/core-api": "^1.5.1",
+                "laravel/cashier": "^15.2.1",
+                "php": "^8.0",
+                "php-http/guzzle7-adapter": "^1.0",
+                "psr/http-factory-implementation": "*",
+                "stripe/stripe-php": "^13.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.34.1",
+                "nunomaduro/collision": "^7.0",
+                "pestphp/pest": "^2.33.2",
+                "phpstan/phpstan": "^1.10.38",
+                "symfony/var-dumper": "^5.4.29"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Fleetbase\\Billing\\Providers\\BillingServiceProvider"
+                    ]
+                },
+                "fleetbase": {
+                    "sandbox-migrations": false
+                },
+                "fleetbase/billing-api": {
+                    "excludes": [
+                        "addon",
+                        "app",
+                        "assets",
+                        "config",
+                        "tests",
+                        "vendor"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fleetbase\\Billing\\": "server/src/",
+                    "Fleetbase\\Billing\\Seeders\\": "server/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Fleetbase\\Billing\\Tests\\": "server/tests/"
+                }
+            },
+            "scripts": {
+                "lint": [
+                    "php-cs-fixer fix -v"
+                ],
+                "test:lint": [
+                    "php-cs-fixer fix -v --dry-run"
+                ],
+                "test:types": [
+                    "phpstan analyse --ansi --memory-limit=0"
+                ],
+                "test:unit": [
+                    "pest --colors=always"
+                ],
+                "test": [
+                    "@test:lint",
+                    "@test:types",
+                    "@test:unit"
+                ]
+            },
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Fleetbase Pte Ltd.",
+                    "email": "hello@fleetbase.io"
+                },
+                {
+                    "name": "Ronald A. Richardson",
+                    "email": "ron@fleetbase.io"
+                }
+            ],
+            "description": "Multi-Tenant Billing and Subscriptions Extension for Fleetbase",
+            "keywords": [
+                "billing",
+                "billing system",
+                "fleetbase",
+                "fleetbase-extension",
+                "revenue engine",
+                "revenue generator",
+                "stripe",
+                "stripe api"
+            ]
         },
         {
             "name": "fleetbase/core-api",
@@ -17894,5 +17992,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
