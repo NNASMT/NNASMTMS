@@ -15,6 +15,9 @@ php artisan sandbox:migrate --force
 # Seed database
 php artisan fleetbase:seed
 
+# Create permissions, policies, and roles
+php artisan fleetbase:create-permissions
+
 # Restart queue
 php artisan queue:restart
 
