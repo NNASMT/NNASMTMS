@@ -137,6 +137,10 @@ jobs:
           if [[ -n "${{ secrets._GITHUB_AUTH_TOKEN }}" ]]; then
             echo "//npm.pkg.github.com/:_authToken=${{ secrets._GITHUB_AUTH_TOKEN }}" > .npmrc
           fi
+          if [[ -n "${{ secrets.FLEETBASE_REGISTRY_TOKEN }}" ]]; then
+            echo "//registry.fleetbase.io/:_authToken=${{ secrets.FLEETBASE_REGISTRY_TOKEN }}" > .npmrc
+            echo "@fleetbase:registry=https://registry.fleetbase.io" > .npmrc
+          fi
         working-directory: ./console
 
       - name: Set Env Variables for QA
