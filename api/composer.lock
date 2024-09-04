@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c95fb9a1ef7216630c7f05818a94d0cf",
+    "content-hash": "73f836ccbcf8d07449da7234d3f89c48",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.321.2",
+            "version": "3.321.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c04f8f30891cee8480c132778cd4cc486467e77a"
+                "reference": "92e5d5fbfd3b29522b763d49d8f2fdf32e58fc1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c04f8f30891cee8480c132778cd4cc486467e77a",
-                "reference": "c04f8f30891cee8480c132778cd4cc486467e77a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/92e5d5fbfd3b29522b763d49d8f2fdf32e58fc1e",
+                "reference": "92e5d5fbfd3b29522b763d49d8f2fdf32e58fc1e",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.321.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.321.3"
             },
-            "time": "2024-08-30T18:14:40+00:00"
+            "time": "2024-09-03T18:04:21+00:00"
         },
         {
             "name": "aws/aws-sdk-php-laravel",
@@ -2298,7 +2298,7 @@
             "version": "0.1.1",
             "dist": {
                 "type": "tar",
-                "url": "https://s3.ap-southeast-1.amazonaws.com/fleetbase-registry-production/flb/%40fleetbase/billing-engine/billing-engine-0.1.1.tgz?AWSAccessKeyId=ASIA26E6KG6WPRXFWKFP&Expires=1725373306&Signature=BbzCVrw1KqHZ8HwRXrPmdACMdmI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkYwRAIgOqxi8IrbNkRgAVYvO9rdoPr%2FIg%2FOfoLBwY4KAKCML%2BgCIFwJP1Ta3ovM3dcN2B5bFdghyyO%2Bdiem9JsETiC%2Fo8V4Kp8ECLr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzUxOTUxMjk2NDI4IgwIYToruxk0M9fvIY8q8wNGN5NBRNnGX9fZeQ6G%2FA1oXaZF1kltdc%2B%2B8D8PnrfMFi8%2BovscEKWMgh01hS77TgVSBualIQ4Mt5yKLmTU5YOFLDgh7L%2BvzHzsAKePoEVz5%2FWleTm5eqLnYeno1pxDhiH%2FRHivEpy7jxpnDxGN7%2FS3towCZnHIXjHnHGKpzNf5w9M2g3PCAZOV16aYBx7BuIbl9LfUSkN5V%2BnhEhfeHL9%2FpR06sdZqg4Uj%2F5uT6jv%2BnHIrI%2FDMKHADcQPgqZwi482%2BbJoW70%2Fpktf9ojYJ4NK5kI16zYcgNVTvxXIhw1Olxo2ZQcxvNW5nWM85o1y7ygOk9N2vh0dCjK4%2BSeXJmC7kUM4b7ZGHBuLibEQqrTVaquaQKEyhppfIqrjpE7HY6ArlnJhwf6aN0BqOJTbm41PV7D7kLNJK3yPGKdF8XEdWvgBhzXWSgww3BnZia0XJjQFnZdVtC7DnjVmJlxYydSqmZJdINGEPq8FyzRoC6H%2BnEpCKwqFbGAMAo9k6pc9lQq0mfmi4XUhaWJj42EkErSrXqyRJSfi%2Ful0wmKpQ5A7VfaasQUhkW9MIFkkfHzSJbuKkTu3gcNFlqpUfF0v2HcFcx7I8ynz692hupcKKx4XzhzsgTgVmCRGk0%2BY%2BCQXtFBHdkQxTxPPlFYi4SW%2BX%2F%2FFEYI3fMPab27YGOqcBlcFpApZ%2BtxQrS69M44MQ3DwTOz11vAoRb0yV886nZH3jMl6SSEePlFhi7c03t7Lu8zLuJ0Xhj4%2FqjlzZiaIuFk2S274sK944Cs6cQLsN%2F2jt0jF27jFvYHt893iUhaevxouSZ%2FHhYRSblgmzzSO9bCJC2BK9u9cOAif1kDsmdH2MfklkcqAxwiPMQJE8%2BdCytvUpg6NlE3Ki3kiOMQ5c06Fxb2Z5zwg%3D"
+                "url": "https://s3.ap-southeast-1.amazonaws.com/fleetbase-registry-production/flb/%40fleetbase/billing-engine/billing-engine-0.1.1.tgz?AWSAccessKeyId=ASIA26E6KG6WFO4BGHN7&Expires=1725435217&Signature=pHRyUZfDJwnfUg7dVKKuxSyUGCw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkgwRgIhAIB7BCdsywF%2FTTbQtmahWHWSO%2F08Ros0nfs1QVMk3D43AiEAvr3wSSL1B1PZ%2BKVqlWn0VbSr116%2BoM%2FshuCvNMVODbUqnwQIzf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3NTE5NTEyOTY0MjgiDD0hRF0YUdOrDiv4dSrzA4kFIolzsFhNptdJR2Pmq33hYx1ch89%2Fug0hanOa2kUo6Vp9a4jnD88AhVhvVY5QPGoTu4xBX3eRPNClzx79zKLEGSVC0OzW%2FvumjzsRiVFMEdgrZ5T7NXI17cWqYCWClK7G86xnP1PrjsR2sJVg0UAN9VsRihoVu6F3Rp8jsfNZN0Zi1krr%2BAFMyCAuFBC1REVLVYeetoppQ5%2FYDKJ9uayB8nBIQOwJFFi42Uyp2mX8R25QQrkf53psJclVPhkkJ9aAizp3C%2B3B622s%2FfwqOrF7U9LcX3FrIn1sHSB5qRXiCO5dAaDtBzgIy02YiCpbF4m4gkx%2BUOXzy8JZtI8jTiM%2BpWWfOLlZ4tV6Oa8L49K%2FmnELSqYbIKZ934t6%2BATjL0x6UINDShpSsqFfZaA40%2FxP5vj2%2BSwBZ1ahNYuhN2DxyXL22CXcdic4JMtJ2P64etg7oDETOcDjha%2FfxVRYPPFer2ZNk5eAhDgPlL%2Fjd7JdY61bfwUysC4AUABv%2FvZiNZ7smteCm5CUovr5fPtKtHePnfIdlEkJirfLZV5xww%2BMCwfV4gAcP9OOURV66vgf9g1JK6NCzJRfIZilvvQ%2FyaRC9mO%2BlDNf%2F2x9CGK33seaX7KBhow8JHzyReRPKr4kiqHl9ihPCg%2FsV3kZ3DDfIXRD%2FOcw1arftgY6pQGaDDSvs3pJGJ0MecP09%2FXF6m01X7Z1ci6%2BfhI%2FR8gWPpEfkz1PlzXTik1Oq8hBw%2F5R28Q%2BPrfF0curE2GFtGgXNMy58yh%2FwgkUdp7xsIfYh%2F89htj4Vhgi1QCHJFh9uUYTH%2FIgNxm2AYzqMYqjRRz1R69eN3ydUz2U4ATNIRpHxxGHJnBRTs4IQYsW%2F6qPpxcNKki3fdCvnos1sQjNMfMCE9gvFs4%3D"
             },
             "require": {
                 "fleetbase/core-api": "^1.5.1",
@@ -2393,16 +2393,16 @@
         },
         {
             "name": "fleetbase/core-api",
-            "version": "1.5.5",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fleetbase/core-api.git",
-                "reference": "af272fac24d5f8911b184ce383eb9d4e6f8320f1"
+                "reference": "5de169c920d3ec16848521e9173eb495d77db23f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fleetbase/core-api/zipball/af272fac24d5f8911b184ce383eb9d4e6f8320f1",
-                "reference": "af272fac24d5f8911b184ce383eb9d4e6f8320f1",
+                "url": "https://api.github.com/repos/fleetbase/core-api/zipball/5de169c920d3ec16848521e9173eb495d77db23f",
+                "reference": "5de169c920d3ec16848521e9173eb495d77db23f",
                 "shasum": ""
             },
             "require": {
@@ -2485,9 +2485,9 @@
             ],
             "support": {
                 "issues": "https://github.com/fleetbase/core-api/issues",
-                "source": "https://github.com/fleetbase/core-api/tree/v1.5.5"
+                "source": "https://github.com/fleetbase/core-api/tree/v1.5.6"
             },
-            "time": "2024-08-31T07:20:50+00:00"
+            "time": "2024-09-04T04:15:20+00:00"
         },
         {
             "name": "fleetbase/fleetops-api",
@@ -5460,16 +5460,16 @@
         },
         {
             "name": "laravel/cashier",
-            "version": "v15.4.2",
+            "version": "v15.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/cashier-stripe.git",
-                "reference": "6b5c938675d11ab8bd7b4b38124ae5d4562ccc0c"
+                "reference": "a934a85540f21c60f55e47c226f8ef9e8f201384"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/cashier-stripe/zipball/6b5c938675d11ab8bd7b4b38124ae5d4562ccc0c",
-                "reference": "6b5c938675d11ab8bd7b4b38124ae5d4562ccc0c",
+                "url": "https://api.github.com/repos/laravel/cashier-stripe/zipball/a934a85540f21c60f55e47c226f8ef9e8f201384",
+                "reference": "a934a85540f21c60f55e47c226f8ef9e8f201384",
                 "shasum": ""
             },
             "require": {
@@ -5544,7 +5544,7 @@
                 "issues": "https://github.com/laravel/cashier/issues",
                 "source": "https://github.com/laravel/cashier"
             },
-            "time": "2024-08-20T15:24:41+00:00"
+            "time": "2024-09-03T14:51:03+00:00"
         },
         {
             "name": "laravel/framework",
@@ -8675,16 +8675,16 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "1.29.0",
+            "version": "1.29.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "fde2ccf55eaef7e86021ff1acce26479160a0fa0"
+                "reference": "59ee38f7480904cd6487e5cbdea4d80ff2758719"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/fde2ccf55eaef7e86021ff1acce26479160a0fa0",
-                "reference": "fde2ccf55eaef7e86021ff1acce26479160a0fa0",
+                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/59ee38f7480904cd6487e5cbdea4d80ff2758719",
+                "reference": "59ee38f7480904cd6487e5cbdea4d80ff2758719",
                 "shasum": ""
             },
             "require": {
@@ -8719,7 +8719,7 @@
                 "phpcompatibility/php-compatibility": "^9.3",
                 "phpstan/phpstan": "^1.1",
                 "phpstan/phpstan-phpunit": "^1.0",
-                "phpunit/phpunit": "^8.5 || ^9.0 || ^10.0",
+                "phpunit/phpunit": "^8.5 || ^9.0",
                 "squizlabs/php_codesniffer": "^3.7",
                 "tecnickcom/tcpdf": "^6.5"
             },
@@ -8774,9 +8774,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.29.0"
+                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.29.1"
             },
-            "time": "2023-06-14T22:48:31+00:00"
+            "time": "2024-09-03T00:55:32+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -15675,16 +15675,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.31.1",
+            "version": "v1.31.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "3d06dd18cee8059baa7b388af00ba47f6d96bd85"
+                "reference": "0a7e2891a85eba2d448a9ffc6fc5ce367e924bc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/3d06dd18cee8059baa7b388af00ba47f6d96bd85",
-                "reference": "3d06dd18cee8059baa7b388af00ba47f6d96bd85",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/0a7e2891a85eba2d448a9ffc6fc5ce367e924bc1",
+                "reference": "0a7e2891a85eba2d448a9ffc6fc5ce367e924bc1",
                 "shasum": ""
             },
             "require": {
@@ -15734,7 +15734,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2024-08-02T07:45:47+00:00"
+            "time": "2024-09-03T20:05:33+00:00"
         },
         {
             "name": "mockery/mockery",
