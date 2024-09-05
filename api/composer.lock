@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.321.3",
+            "version": "3.321.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "92e5d5fbfd3b29522b763d49d8f2fdf32e58fc1e"
+                "reference": "986326efde1d0598ec9fc1b185716550be8ef522"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/92e5d5fbfd3b29522b763d49d8f2fdf32e58fc1e",
-                "reference": "92e5d5fbfd3b29522b763d49d8f2fdf32e58fc1e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/986326efde1d0598ec9fc1b185716550be8ef522",
+                "reference": "986326efde1d0598ec9fc1b185716550be8ef522",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.321.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.321.4"
             },
-            "time": "2024-09-03T18:04:21+00:00"
+            "time": "2024-09-04T18:09:31+00:00"
         },
         {
             "name": "aws/aws-sdk-php-laravel",
@@ -2298,7 +2298,7 @@
             "version": "0.1.1",
             "dist": {
                 "type": "tar",
-                "url": "https://s3.ap-southeast-1.amazonaws.com/fleetbase-registry-production/flb/%40fleetbase/billing-engine/billing-engine-0.1.1.tgz?AWSAccessKeyId=ASIA26E6KG6WFO4BGHN7&Expires=1725435217&Signature=pHRyUZfDJwnfUg7dVKKuxSyUGCw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkgwRgIhAIB7BCdsywF%2FTTbQtmahWHWSO%2F08Ros0nfs1QVMk3D43AiEAvr3wSSL1B1PZ%2BKVqlWn0VbSr116%2BoM%2FshuCvNMVODbUqnwQIzf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3NTE5NTEyOTY0MjgiDD0hRF0YUdOrDiv4dSrzA4kFIolzsFhNptdJR2Pmq33hYx1ch89%2Fug0hanOa2kUo6Vp9a4jnD88AhVhvVY5QPGoTu4xBX3eRPNClzx79zKLEGSVC0OzW%2FvumjzsRiVFMEdgrZ5T7NXI17cWqYCWClK7G86xnP1PrjsR2sJVg0UAN9VsRihoVu6F3Rp8jsfNZN0Zi1krr%2BAFMyCAuFBC1REVLVYeetoppQ5%2FYDKJ9uayB8nBIQOwJFFi42Uyp2mX8R25QQrkf53psJclVPhkkJ9aAizp3C%2B3B622s%2FfwqOrF7U9LcX3FrIn1sHSB5qRXiCO5dAaDtBzgIy02YiCpbF4m4gkx%2BUOXzy8JZtI8jTiM%2BpWWfOLlZ4tV6Oa8L49K%2FmnELSqYbIKZ934t6%2BATjL0x6UINDShpSsqFfZaA40%2FxP5vj2%2BSwBZ1ahNYuhN2DxyXL22CXcdic4JMtJ2P64etg7oDETOcDjha%2FfxVRYPPFer2ZNk5eAhDgPlL%2Fjd7JdY61bfwUysC4AUABv%2FvZiNZ7smteCm5CUovr5fPtKtHePnfIdlEkJirfLZV5xww%2BMCwfV4gAcP9OOURV66vgf9g1JK6NCzJRfIZilvvQ%2FyaRC9mO%2BlDNf%2F2x9CGK33seaX7KBhow8JHzyReRPKr4kiqHl9ihPCg%2FsV3kZ3DDfIXRD%2FOcw1arftgY6pQGaDDSvs3pJGJ0MecP09%2FXF6m01X7Z1ci6%2BfhI%2FR8gWPpEfkz1PlzXTik1Oq8hBw%2F5R28Q%2BPrfF0curE2GFtGgXNMy58yh%2FwgkUdp7xsIfYh%2F89htj4Vhgi1QCHJFh9uUYTH%2FIgNxm2AYzqMYqjRRz1R69eN3ydUz2U4ATNIRpHxxGHJnBRTs4IQYsW%2F6qPpxcNKki3fdCvnos1sQjNMfMCE9gvFs4%3D"
+                "url": "https://s3.ap-southeast-1.amazonaws.com/fleetbase-registry-production/flb/%40fleetbase/billing-engine/billing-engine-0.1.1.tgz?AWSAccessKeyId=ASIA26E6KG6WHQXSUEYW&Expires=1725513194&Signature=%2F4aETjjWtFcU%2BXEMU4wOON33z54%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEM3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAI6n2msdg4z3co0htbpDmJ18ezkPyqs1mgV1wawE8iuEAiAQhXntanrpHXofdhfjk%2FRscGFFonvmqffTr9YqFxb%2BFyqfBAjm%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDc1MTk1MTI5NjQyOCIM9nIt6m7bqJZA%2F0DQKvMDHYZPQUU2we6oGMp8nIhxjuyNmYDoLG7FwjZeJBhK0QQiydkQSTfVzSjMYYF2xDU8f%2F%2B%2BxQCBrOEtkU99Yy9bvi1jQWhdr3sYQ9wKEj6qqcpUgnLIwSCLzdeaMEjomc8YyyUiFdJnT8fQzbe4jaBHM%2B7eDxUs6KRwozpNMSQ3vzyXhaFqJfS9G3%2BkvgzLeIobgpOrPAjrrc3zrfrW4hsf45bIJSsIykpJNI0YIlalWtBlHQFkOBOYa8s0eYi12l%2FVS3YFUOxZp%2FbUphEFFITbBd%2BG%2F7JOXjXml576tlLSopC9uE94iDrgXE2curGZVlFpqbLybGrIc8kfz3EqtUmiSTG97XbKvWjWO6AKhDj0cORJKhkmWkzv2z0GaDhtQPOrR8fDpH6zQNN14v0rghbbQpqqv2bzb2z0NL8UYW4fo3ufELqAbCNUeCUgqMhbFZ2xPFb2ivWYzYnQJqPLTBUDV7uuz1k1gl6qq1e3if2O6NsqWGpu4g3d%2BeYetNLw1vVnsB3Deu3RmxWkY6f9YWS7%2FRRG5vRy6M0%2BIVWsNUxE67tdeWLzqILuMz49nNLtUjeM8w1mhJNXPTL4tnknBnIeFo9GSlQXBMLvd3vDnqlIZaN0IS26hV5c3PuM%2Fy3OhzGrhUfAYrnZLMpz7cgsc75CckHCJDCw6OS2BjqmARBhYWJDaG9x8wGwafqyXSXrzEdDoijqwRj3qKgyNq%2FMBvo3iefQ8WAq03DGryR1BcZxN4q13WDHjbo82BqyFnrfeCEdZlA19%2FVqNcflb2urzlK4Vfu2QZ2fOciuRFcqZ46wg8Hod4AG7hah%2F7iRgRACX5qhe9Qsv60p4olG14BzuI2U5vU%2B58qbluFkR4ChDy2caJO%2F9%2BCZNTNaINw%2BcCvI7zDmC2Q%3D"
             },
             "require": {
                 "fleetbase/core-api": "^1.5.1",
@@ -6782,16 +6782,16 @@
         },
         {
             "name": "maatwebsite/excel",
-            "version": "3.1.56",
+            "version": "3.1.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpartnerNL/Laravel-Excel.git",
-                "reference": "0381d0225b42c3f328d90f0dd05ca071fca3953f"
+                "reference": "3571496c00ca1812c25ee19cda50faad216b7909"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpartnerNL/Laravel-Excel/zipball/0381d0225b42c3f328d90f0dd05ca071fca3953f",
-                "reference": "0381d0225b42c3f328d90f0dd05ca071fca3953f",
+                "url": "https://api.github.com/repos/SpartnerNL/Laravel-Excel/zipball/3571496c00ca1812c25ee19cda50faad216b7909",
+                "reference": "3571496c00ca1812c25ee19cda50faad216b7909",
                 "shasum": ""
             },
             "require": {
@@ -6799,7 +6799,7 @@
                 "ext-json": "*",
                 "illuminate/support": "5.8.*||^6.0||^7.0||^8.0||^9.0||^10.0||^11.0",
                 "php": "^7.0||^8.0",
-                "phpoffice/phpspreadsheet": "^1.18",
+                "phpoffice/phpspreadsheet": "^1.29.1",
                 "psr/simple-cache": "^1.0||^2.0||^3.0"
             },
             "require-dev": {
@@ -6847,7 +6847,7 @@
             ],
             "support": {
                 "issues": "https://github.com/SpartnerNL/Laravel-Excel/issues",
-                "source": "https://github.com/SpartnerNL/Laravel-Excel/tree/3.1.56"
+                "source": "https://github.com/SpartnerNL/Laravel-Excel/tree/3.1.57"
             },
             "funding": [
                 {
@@ -6859,7 +6859,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-19T09:40:43+00:00"
+            "time": "2024-09-04T07:37:43+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -7381,16 +7381,16 @@
         },
         {
             "name": "mtdowling/jmespath.php",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "bbb69a935c2cbb0c03d7f481a238027430f6440b"
+                "reference": "a2a865e05d5f420b50cc2f85bb78d565db12a6bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/bbb69a935c2cbb0c03d7f481a238027430f6440b",
-                "reference": "bbb69a935c2cbb0c03d7f481a238027430f6440b",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/a2a865e05d5f420b50cc2f85bb78d565db12a6bc",
+                "reference": "a2a865e05d5f420b50cc2f85bb78d565db12a6bc",
                 "shasum": ""
             },
             "require": {
@@ -7407,7 +7407,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -7441,9 +7441,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jmespath/jmespath.php/issues",
-                "source": "https://github.com/jmespath/jmespath.php/tree/2.7.0"
+                "source": "https://github.com/jmespath/jmespath.php/tree/2.8.0"
             },
-            "time": "2023-08-25T10:54:48+00:00"
+            "time": "2024-09-04T18:46:31+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -16479,16 +16479,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.31",
+            "version": "10.5.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "43e7c3e6a484e538453f89dfa6a6f308c32792da"
+                "reference": "f069f46840445d37a4e6f0de8c5879598f9c4327"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/43e7c3e6a484e538453f89dfa6a6f308c32792da",
-                "reference": "43e7c3e6a484e538453f89dfa6a6f308c32792da",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f069f46840445d37a4e6f0de8c5879598f9c4327",
+                "reference": "f069f46840445d37a4e6f0de8c5879598f9c4327",
                 "shasum": ""
             },
             "require": {
@@ -16560,7 +16560,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.31"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.32"
             },
             "funding": [
                 {
@@ -16576,7 +16576,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-03T11:57:55+00:00"
+            "time": "2024-09-04T13:33:39+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -18005,5 +18005,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }
